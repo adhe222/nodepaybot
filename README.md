@@ -1,7 +1,7 @@
 # Nodepay Automate with Proxies | Bypass Version!
 Automate farming Nodepay Network using proxies. Please use the bypass version. I found Nodepay's real IP host to make farming easier without being blocked by Cloudflare protection. 
 - This bot support multiple accounts. Run ```run-multi-bypass.py```
-- Place multiple tokens in ```tokens.txt```
+- Place multiple tokens in ```token_list.txt```
 ### Tools and components required
 1. Nodepay Account | Register: [https://app.nodepay.ai/register](https://app.nodepay.ai/register?ref=ZUCBuJaIoBXLE6J)
 2. Proxies Static Residental | [FREE 10 PREMIUM PROXIES](https://www.webshare.io/?referral_code=p7k7whpdu2jg) | Good Premium Proxies (paid): [922proxy](https://www.922proxy.com/register?inviter_code=d03d4fed), [proxy-cheap](https://app.proxy-cheap.com/r/JysUiH), [infatica](https://dashboard.infatica.io/aff.php?aff=544)
@@ -26,7 +26,7 @@ apt install python3 python3-pip -y
 python -m pip install -r requirements.txt
 ```
 ### Run the Bot
-- Replace the proxies example in ```proxies.txt``` to your own proxies, please use only 10 proxies with proxies http only.
+- Replace the proxies example in ```local_proxies.txt``` to your own proxies, please use only 3 proxies with proxies http only.
 #### Run command
 - Run for original server:
 ```bash
@@ -53,6 +53,6 @@ If the following log appears, it means it is running successfully.
 ```
 # Notes
 - Run this bot, and it will update your referrer code to my invite code if you don't have one.
-- One account only can connect with 10 Proxies.
+- One account only can connect with 3 Proxies.
 - Feel free to enjoy and recode or create new bots using the Nodepay API with direct IP that I found.
 - You can just run this bot at your own risk, I'm not responsible for any loss or damage caused by this bot. This bot is for educational purposes only.
