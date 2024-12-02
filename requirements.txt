@@ -4,3 +4,4 @@ uuid
 cloudscraper
 loguru
 curl_cffi
+colorama
