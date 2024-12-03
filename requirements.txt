@@ -3,4 +3,5 @@ aiohttp
 uuid
 cloudscraper
 loguru
-curl_cffi
+curl_cffi==0.80b7
+colorama
