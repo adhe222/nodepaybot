@@ -5,3 +5,5 @@ cloudscraper
 loguru
 curl_cffi==0.80b7
 colorama
+termcolor
+tqdm
