@@ -26,20 +26,19 @@ apt install python3 python3-pip -y
 python -m pip install -r requirements.txt
 ```
 ### Run the Bot
+- clone repo
+```bash
+git clone https://github.com/adhe222/nodepaybot.git
+```
 - Replace the proxies example in ```local_proxies.txt``` to your own proxies, please use only 3 proxies with proxies http only.
 #### Run command
-- Run for original server:
+- Run for autoproxy server:
 ```bash
-python run.py
+python nodepay-autoproxy.py
 ```
->Press Enter then insert your nodepay token
-- Run for bypass server:
->Use this script if you getting errors like ```Error during API call: 403 Client Error: Forbidden for url```
-```bash
-python run-bypass.py
-```
->Press Enter then insert your nodepay token
-- Run for multi bypassed server:
+>Press Enter, or
+- Run for multi bypassed server with manual proxies:
+  
 ```bash
 python run-multi-bypass.py
 ```
