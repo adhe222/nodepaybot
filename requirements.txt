@@ -3,7 +3,7 @@ aiohttp
 uuid
 cloudscraper
 loguru
-curl_cffi==0.80b7
+curl_cffi
 colorama
 termcolor
 tqdm
